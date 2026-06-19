@@ -1,1 +1,26 @@
+ITEM: STATION 01 BENCH
+TYPE: bench
+VERSION: raw-1
+
+# PURPOSE
+- test station 01 behavior
+- raw input → raw output
+
+# INPUTS
+? input_A
+? input_B
+? input_C
+
+# OUTPUTS
+! output_A
+! output_B
+! output_C
+
+# RULES
+& raw in → raw out
+& no interpretation
+& no correction
+& no merge
+
+END
 
