@@ -1,35 +1,30 @@
-ITEM: U4X OPERATOR DESIGN
+ITEM: U4X OPERATOR
 TYPE: operator
 VERSION: raw-1
 
 # PURPOSE
-- define operator behavior
-- map raw input to raw output
+- operator mapping
+- input → output
 
 # OPERATORS
 ? = input
 ! = output
 & = state
-# = comment
 
 # STATES
 &idle
-&input_state
 &processing
 &error
 
 # FLOW
-? → &input_state
-&input_state → &processing
+? → &processing
 &processing → !output
 &error → !err
 
 # TEST CASES
 ?A → !A
 ?B → !B
-?C → !C
 ?0 → !0
 ?* → !*
 
 END
-
