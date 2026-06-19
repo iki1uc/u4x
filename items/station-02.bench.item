@@ -1,26 +1,24 @@
-ITEM: STATION 02 BENCH
+ITEM: U4X STATION 02
 TYPE: bench
 VERSION: raw-1
 
 # PURPOSE
-- test station 02 behavior
-- independent from station 01
+- zweite station
+- unabhängig von station 01
 
 # INPUTS
-? input_X
-? input_Y
-? input_Z
+? X
+? Y
+? Z
 
 # OUTPUTS
-! output_X
-! output_Y
-! output_Z
+! X
+! Y
+! Z
 
 # RULES
-& raw in → raw out
-& no logic
-& no auto-correction
-& no cross-station behavior
+& raw passt durch
+& keine Verbindung zu station 01
+& keine Korrektur
 
 END
-
