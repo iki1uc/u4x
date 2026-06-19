@@ -1,1 +1,26 @@
+ITEM: STATION 02 BENCH
+TYPE: bench
+VERSION: raw-1
+
+# PURPOSE
+- test station 02 behavior
+- independent from station 01
+
+# INPUTS
+? input_X
+? input_Y
+? input_Z
+
+# OUTPUTS
+! output_X
+! output_Y
+! output_Z
+
+# RULES
+& raw in → raw out
+& no logic
+& no auto-correction
+& no cross-station behavior
+
+END
 
