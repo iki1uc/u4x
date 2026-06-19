@@ -3,27 +3,22 @@ TYPE: bench
 VERSION: raw-1
 
 # PURPOSE
-- define test inputs
-- define expected outputs
-- define operator behavior
-- define error behavior
-- define timing behavior
+- definiert tests
+- definiert erwartete outputs
 
 # INPUTS
-? test_input_1
-? test_input_2
-? test_input_3
+? test_1
+? test_2
+? test_3
 
 # OUTPUTS
-! expected_output_1
-! expected_output_2
-! expected_output_3
+! out_1
+! out_2
+! out_3
 
 # RULES
-& no interpretation
-& no auto-correction
-& no meta-behavior
-& raw in → raw out
+& raw rein → raw raus
+& keine auto-logik
+& keine meta-ebene
 
 END
-
