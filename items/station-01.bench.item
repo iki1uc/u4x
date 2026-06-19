@@ -1,26 +1,24 @@
-ITEM: STATION 01 BENCH
+ITEM: U4X STATION 01
 TYPE: bench
 VERSION: raw-1
 
 # PURPOSE
-- test station 01 behavior
-- raw input → raw output
+- basic raw station
+- input → output
 
 # INPUTS
-? input_A
-? input_B
-? input_C
+? A
+? B
+? C
 
 # OUTPUTS
-! output_A
-! output_B
-! output_C
+! A
+! B
+! C
 
 # RULES
-& raw in → raw out
-& no interpretation
-& no correction
-& no merge
+& raw passt durch
+& keine Logik
+& keine Interpretation
 
 END
-
